@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <g>
+    <rect x="10" y="10" width="80" height="80" fill="white" stroke="black"/>
+    <polygon points="10,10 90,10 70,0 30,0" fill="white" stroke="black"/>
+    <polygon points="90,10 90,90 70,80 70,0" fill="white" stroke="black"/>
+    <text x="25" y="65" fill="black" style="font-family: Arial; font-size: 48px;">🤠</text>
+  </g>
+</svg>
