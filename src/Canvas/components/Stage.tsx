@@ -11,7 +11,8 @@ export const Stage = ({ size = 20, segments = 1, position }: StageProps) => {
   const DefaultGridHelperArgs = [
     size,
     segments,
-    "2E2F2F",
+    "#587B7F",
+    "#D7D9CE",
   ] as ConstructorParameters<typeof GridHelper>;
 
   return (
