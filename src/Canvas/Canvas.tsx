@@ -1,7 +1,7 @@
 import { Canvas as ThreeCanvas } from "@react-three/fiber";
 import { Stage } from "./components/Stage";
 import { OrbitControls, Stats } from "@react-three/drei";
-import { TitleBackground } from "./components/TitleBackground";
+import { TitleBackground } from "./components/TitleBackground/TitleBackground";
 
 export const Canvas = () => {
   const stageSize = 20;
@@ -15,7 +15,7 @@ export const Canvas = () => {
       <TitleBackground isPlaying={true} />
       <Stage size={stageSize} />
       <OrbitControls />
-      {/* <axesHelper args={[10]} /> */}
+      <axesHelper args={[10]} />
       <Stats />
     </ThreeCanvas>
   );
